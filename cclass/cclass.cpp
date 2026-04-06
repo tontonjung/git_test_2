@@ -5,80 +5,15 @@
 
 int main()
 {
-    /*int i, j;
-    int n;
+    int a;
+    scanf("%d", &a);
 
-    scanf("%d", &n);
+    printf("%d\n", a);
 
-    for (i = 1; i <= n; i++) {
-        for(j = 1; j <= i - 1; j++){
-            printf(" ");
-        }
-        for(j = 1; j <= n - i + 1; j++){
-            printf("*");
-        }
-        printf("\n");
-    }*/
-
-
-    int i, j, n;
-
-
-
-    char c = 'A';
-
-    int k = 0;
-
-
-
-    printf("숫자 입력 : ");
-
-
-
-    scanf("%d", &n);
-
-
-
-    for (i = 1; i <= n; i++) {
-
-
-
-        for (j = 1; j <= n - i; j++) {
-
-
-
-            printf("%c ", c++);
-
-
-
-        }
-
-
-
-        for (j = 1; j <= i; j++) {
-
-
-
-            printf("%d ", k++ % 10);
-
-
-
-        }
-
-
-
-        printf("\n");
-
-
-
+    if (a > 0) {
+        printf("우효 쵸 럭키다제");
     }
-
-
-
+    
     return 0;
-
-
-
-
 
 }
